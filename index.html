@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DBZ Character Picker</title>
+    <script src="./scripts/app.js" defer></script>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <navbar class="navbar">
+      <div class="navbar__container container">
+        <div class="navbar__logo">
+          <img class="navbar__logo" src="/images/goku.svg" />
+        </div>
+        <div class="navbar__menu">
+          <ul class="navbar__menu-list">
+            <li class="navbar__menu-item">
+              <a href="#" class="navbar__menu-link"
+                >Let's Check Out a Character!</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </navbar>
+    <!-- Hero -->
+    <header class="hero">
+      <div class="hero__container container">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            <span class="hero__title-emphasis">DBZ</span> Character Picker
+          </h1>
+          <p class="hero__description">
+            Enjoy seeing the stats of some of your favorite DBZ characters!
+          </p>
+        </div>
+        <div class="hero__image">
+          <img src="/images/goku.png" alt="" />
+        </div>
+      </div>
+    </header>
+
+    <!-- Character Picker -->
+    <!-- Want them to type in a character name to choose one or push a button to generate a random character -->
+    <section class="character-info">
+      <div class="character-info__container">
+        <div class="character-info__card">
+          <button class="fetch-random-character" id="fetch-random-character">
+            <span class="btn-label">Fetch a Random Character</span>
+
+            <!-- individual stars -->
+            <span class="star s1"></span>
+            <span class="star s2"></span>
+            <span class="star s3"></span>
+            <span class="star s4"></span>
+            <span class="star s5"></span>
+            <span class="star s6"></span>
+            <span class="star s7"></span>
+            <span class="star s8"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
