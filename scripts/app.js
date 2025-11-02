@@ -4,6 +4,8 @@ const fetchRandomCharacterBtn = document.getElementById(
 
 fetchRandomCharacterBtn.addEventListener('click', loadRandomCharacter);
 
+// Will need to find a different way to grab character info
+// Going to store all characters from API in a separate file full of objects
 async function loadRandomCharacter() {
   const randomId = Math.floor(Math.random() * 58) + 1;
   const url = fetch('https://web.dragonball-api.com/api/characters/');
